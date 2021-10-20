@@ -1,0 +1,71 @@
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.presalebody {
+  width: 80%;
+  border: 2px solid #FFF;
+  margin: 10rem auto;
+}
+
+.presaletitle {
+  text-align: center;
+  font-size: 40px;
+  margin: 20px;
+  color: white
+}
+
+.presaleItem {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.presaleItem input {
+  width: 100%;
+  font-size: 25px;
+  padding: 15px;
+}
+
+.presale .button {
+  margin: 0 auto;
+  font-size: 25px;
+  width: 350px;
+  background-color: #ffcb00;
+  color: #000;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+@media (max-width: 992px) {
+  .presaleItem {
+    flex-direction: column;
+  }
+  .presaleItem input {
+    padding: 15px 0
+  }
+  .presale .button {
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .presale {
+    margin: 0 !important;
+    width: 100%;
+  }
+  .presalebody {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrap {
+    max-width: 1200px;
+  }
+}

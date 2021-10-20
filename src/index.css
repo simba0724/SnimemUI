@@ -1,0 +1,511 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  src: url('/src/assets/fonts/Euclid\ Circular\ A\ Regular.woff');
+}
+@media screen and (max-width: 1780px) {
+  .stopimg{
+    width : 700px!important;
+    margin-top: -170px!important;
+  }
+  .stop{
+    font-size: 96px!important;
+  }
+}
+
+@media screen and (max-width: 1560px) {
+  .astronat{
+    width: 600px!important;
+    height: 700px!important;
+    top : 100px !important;
+    right : 0!important;
+  }
+  .sminemtext{
+    width : 1013px!important;
+  }
+  .sminemtextsmall{
+    width : 1013px!important;
+  }
+  .first{
+    margin-top: 0px!important;
+  }
+  .second{
+    margin-top: -250px !important;
+  }
+  .third{
+    margin-top: -80px !important;
+  }
+  .threeman{
+    right : -100px!important;
+    width : 900px!important;
+    height : 1100px!important;
+    margin-top: 200px!important;
+  }
+  .threedetail{
+    right : 500px!important;
+    bottom: 270px!important;
+  }
+  .fairmodel{
+    font-size: 96px!important;
+    width : 1200px!important;
+  }
+  .greedy{
+    width : 1200px!important;
+  }
+  .secure{
+    width : 1000px!important;
+  }
+  .presel{
+    width: 1165px!important;
+  }
+  .smileman{
+    width : 400px!important;
+    margin-top: 0!important;
+  }
+  .man1{
+    margin-left : -20%!important
+  }
+  .man2{
+    margin-right : -20%!important
+  }
+  
+}
+@media screen and (max-width: 1250px) {
+  .astronat{
+    position: unset!important;
+    margin-top: -100px;
+    display: contents;
+  }
+  .welcome{
+    font-size: 64px!important;
+  }
+  .whois{
+    font-size: 64px!important;
+  }
+  .club{
+    font-size: 120px!important;
+  }
+  .planet{
+    position:unset!important;
+    padding-left: 2%;
+    width: 140px!important;
+    height: 80px!important;
+  }
+  .bars{
+    display:unset!important;
+  }
+  .menus{
+    display: none!important;
+  }
+  .topmenu{
+    width: 310px!important;
+  }
+  .topright{
+    padding-top: 20px;
+    width : 317px!important;
+  }
+  .topright1{
+    width: 317px !important;
+    height: 42px !important;
+  }
+  .arrowtext{
+    width : unset!important;
+  }
+  .tokeninfo{
+    height : 38px!important;
+    font-size: 24px!important;
+    width : 186px!important;
+  }
+  .sminemtext{
+    width : unset!important;
+    font-size: 36px !important;
+  }
+  .sminemtextsmall{
+    width : unset!important;
+    font-size: 22px !important;
+  }
+  .threeman{
+    width : 700px!important;
+    height : 900px!important;
+    margin-top: 500px!important;
+  }
+  .fair{
+    font-size: 36px!important;
+  }
+  .seven{
+    width : 400px!important;
+    height: 300px!important;
+    margin-top: -50px!important;
+    margin-left: -150px!important;
+  }
+  .threedetail{
+    right : 400px!important;
+    bottom: 200px!important;
+  }
+  .generate{
+    display: none;
+  }
+  .fairmodel{
+    font-size: 80px!important;
+    width: 800px!important;
+  }
+  .greedy{
+    font-size: 36px!important;
+    padding-right: 40px!important;
+    margin-left : 10px!important
+  }
+  .secure{
+    width : 600px!important;
+    font-size: 36px!important;
+    padding-right: 10px!important;
+    margin-left : 10px!important
+  }
+  .presel{
+    width: 666px!important;
+  }
+  .first{
+    margin-top: -150px!important;
+    padding-left: 21px!important;
+  }
+  .second{
+    margin-top: -100px !important;
+  }
+  .third{
+    margin-top: -50px !important;
+  }
+  .stopimg{
+    width : 400px!important;
+    margin-top: -100px!important;
+  }
+  .stop{
+    font-size: 64px!important;
+  }
+  .save{
+    font-size: 80px!important;
+  }
+  .boy{
+    font-size: 64px!important;
+  }
+  .boysave{
+    width : 800px!important;
+  }
+  .join{
+    font-size: 96px!important;
+  }
+  .twitter{
+    width : 98px;
+  }
+  .discord{
+    width : 98px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .curvearrow{
+    display: none;
+  }
+  .bottommenu{
+    flex-direction: column;
+    width: unset!important;
+  }
+  .topright1{
+    width : 328px!important;
+    height: 46px !important;
+  }
+  .tokeninfo{
+    margin-left: 0!important;
+    width : 324px!important;
+  }
+  .navmenus{
+    font-size: 24px !important;
+  }
+  .menuitem1{
+    margin-top: 40px!important;
+  }
+  .menuitem2{
+    padding-top: 40px!important;
+  }
+  .fairmodel{
+    font-size: 40px!important;
+    width: 400px!important;
+  }
+  .analytic{
+    width :60px !important;
+    height: 60px!important;
+    top : 100px !important
+  }
+  .greedy{
+    font-size: 22px!important;
+    width : 1200px!important;
+    padding-left: 30px!important;
+  }
+  .arrow{
+    display: none;
+  }
+  .presel{
+    width: 317px!important;
+  }
+  .presale{
+    font-size: 64px!important;
+    margin-top: -60px!important;
+    margin-left: 40px!important;
+  }
+  .smileman{
+    width : 200px!important;
+  }
+  
+  .mantext1{
+    font-size: 22px!important;
+  }
+  .mantext2{
+    font-size: 18px!important;
+  }
+  .first{
+    margin-top: -130px!important;
+    padding-left: 15px!important;
+    padding-right: 30px!important;
+  }
+  
+  .save{
+    font-size: 40px!important;
+    margin-top: -120px!important;
+  }
+  .boy{
+    font-size: 40px!important;
+  }
+  .boysave{
+    width : 500px!important;
+  } 
+  .shinyman{
+    width : 300px!important;
+    padding-left: 20px!important;
+  }
+  .cryptoarrow{
+    width : 150px!important;
+  }
+  .welcomedetail{
+    padding-top: 24px!important;
+  }
+  .club{
+    padding-left: 10px!important;
+  }
+}
+@media screen and (max-width: 780px) {
+  .stopimg{
+    margin-top: -90px!important;
+  }
+  .welcome{
+    font-size: 40px!important;
+    transform: unset!important;
+  }
+  .club{
+    font-size: 52px!important;
+    transform: unset!important;
+    margin : 0!important;
+    padding : 0!important;
+  }
+}
+@media screen and (max-width: 730px) {
+  .dog{
+    padding-left: 30px!important;
+    padding-top: 20px!important;
+    padding-bottom: 26px!important;
+  }
+  .sminemtext{
+    font-size: 22px !important;
+  }
+  .sminemtextsmall{
+    font-size: 18px !important;
+  }
+  .stopimg{
+    width : 300px!important;
+    margin-top: -70px!important;
+    padding-left: 3%!important;
+  }
+  .stop{
+    font-size: 40px!important;
+  }
+  .third{
+    margin-top: -30px !important;
+    padding-bottom: 80px!important;
+  }
+  .threeman{
+    width : 400px!important;
+    height : 800px!important;
+    margin-top: 420px!important;
+    right : -70px!important;
+  }
+  .threedetail{
+    font-size: 12px!important;
+    right : 200px!important;
+    bottom: 350px!important;
+    padding-left:10px!important
+  }
+  .fair{
+    font-size: 22px!important;
+  }
+  .second{
+    margin-top: -330px !important;
+  }
+  .carousel{
+    width : 220px !important;
+    height : 258px !important;
+  }
+  .logo{
+    width : 100px!important;
+    padding-top: 10px;
+  }
+  .topright{
+    width : 178px!important;
+  }
+  .bars{
+    font-size:  30px!important;
+    margin-top: -5px!important;
+  }
+  .topmenu{
+    width: 140px!important;
+  }
+  .earth{
+    width : 300px;
+  }
+  .earthbody{
+    padding-bottom: 80px!important;
+  }
+  .join{
+    font-size: 40px!important;
+    margin-top: -130px!important;
+  }
+  .twitter {
+    width :46px;
+  }
+  .discord {
+    width :46px;
+    top : 90px!important;
+  }
+  .seven{
+    width : 230px!important;
+    height: 130px!important;
+    margin-top: 40px!important;
+    margin-left: -120px!important;
+  }
+  
+  .whois{
+    font-size: 40px!important;
+  }
+  
+}
+@media screen and (max-width: 550px) {
+  .threedetail{
+    width : unset!important;
+    font-size: 12px!important;
+   }
+  .tman1{
+    flex-wrap: wrap;
+  }
+  .tman2{
+    flex-wrap: wrap-reverse;
+  }
+  .man1{
+    margin-left : -50%!important
+  }
+  .man2{
+    margin-right : -50%!important
+  }
+  .mantext1{
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+  }
+  .mantext2{
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+  }
+  
+  .first{
+    margin-top: -70px!important;
+  }
+  .third{
+    margin-top: -25px !important;
+  }
+  .shinyman{
+    position:absolute;
+    width : 300px!important;
+    padding-left: 50px!important;
+    right : -90px!important;
+    top : 20px!important;
+  }
+  .boysave{
+    padding-top: 200px!important;
+    padding-right: 16px!important;
+    padding-left: 50px!important;
+    width: calc(100% - 70px)!important;
+  } 
+  .save{
+    margin-top: 0px!important;
+  }
+  .cryptoarrow{
+    width : 100px!important;
+  }
+  .bottomlogo{
+    width : 130px!important;
+    padding-top: 10px;
+  }
+  .dog{
+    width : 300px!important;
+  }
+  .while{
+    display: unset!important;
+  }
+  .market{
+    display: "none";
+  }
+  .stoptext{
+    text-align-last: unset!important;
+  }
+  .stopimg{
+    width : 300px!important;
+    margin-top: -10px!important;
+    padding-left: 3%!important;
+  }
+  .stop{
+    font-size: 40px!important;
+  }
+  .fairm{
+    text-align: left!important;
+  }
+  .fairmodel{
+    padding-left:  6%!important;
+    padding-right: 6%!important;
+  }
+  .presale{
+    margin-left: -60px!important;
+  }
+  .secure{
+    font-size: 22px!important;
+    width : 400px!important;
+    padding-left: 0px!important;
+  }
+  .nftimg{
+    margin-left: -40px;
+  }
+  .face{
+    width: 20px!important;
+  }
+  .arrow1{
+    width :50px!important;
+    padding-right: 0!important;
+    padding-left: 20px!important;
+  }
+}

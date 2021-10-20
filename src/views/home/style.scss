@@ -1,0 +1,348 @@
+.connect {
+    background-color: #ffcb00;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+}
+
+.welcomebody{
+    position: relative;
+    padding-top: 50px;
+}
+.welcome{
+    font-size: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.club{
+    font-size: 168px;
+    padding-left : 140px;
+    margin-top : -20px;
+    font-weight: bold;
+}
+.welcomedetail{
+    padding: 70px 6% 0px 6%
+}
+.arrowtext{
+    width: 638px;
+    font-size: 22px;
+}
+.righttoken{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.topright1{
+    font-size: 16px !important;
+    width : 227px;
+    height: 32px;
+}
+.tokeninfo{
+    margin-left: 24px;
+    border : solid 2px white;
+    width: 139px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.planet{
+    position: absolute;
+    left: 65%;
+    top : 120px;
+}
+.astronat{
+    position: absolute;
+    top:50px;
+    right: 3%;
+}
+.astronat>img{
+    width: 100%;
+    height: 100%;
+}
+
+.first{
+    background-color: #180A3F;
+    transform: rotate(-4deg);
+    margin-left: -20px;
+    width: calc(100% + 40px);
+    margin-top: 140px;
+    padding-bottom: 50px;
+}
+.whois{
+    transform: rotate(-1deg)!important;
+    font-size: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding :62px 6% 0px calc(6% + 10px);
+}
+.dog{
+    padding-left: 40%;
+}
+.sminemtexts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: rotate(4deg);
+    padding:0 calc(6% + 20px) 0 6%;
+}
+.sminemtext{
+    width : 1309px;
+    font-size: 64px;
+}
+.sminemtextsmall{
+    width: 864px;
+    font-size: 36px;
+    text-align: left;
+    color : #E7DEFF;
+}
+
+.fairbody{
+    padding-top: 100px;
+    position: relative;
+}
+.analytic{
+    position: absolute;
+    left : 30%;
+    top : 90px;
+}
+.fairmodel{
+    width : 1250px;
+    transform: rotate(-4deg);
+    font-size: 120px;
+    font-weight: bold;
+}
+.fair{
+    padding-top: 100px;
+    font-size: 64px;
+}
+.seven{
+    margin-left: -280px;
+    margin-top: -170px;
+}
+.seven>img{
+    width : 100%;
+    height: 100%;
+}
+.generate{
+    font-size: 36px;
+    width : 683px;
+    color: #E7DEFF;
+    padding-left: 14%;
+}
+.threemanbody{
+    display: flex;
+    justify-content: end;
+    margin-top: -700px;
+    position: relative;
+    height: 1300px;
+}
+.threedetail{
+    font-size: 18px;
+    text-align: right;
+    position : absolute;
+    right : 700px;
+    bottom: 350px;
+    width: 335px;
+}
+.threeman{
+    position: absolute;
+    right: 0;
+}
+
+.second{
+    background-color: #180A3F;
+    transform: rotate(-4deg);
+    margin-left: -20px;
+    width : calc(100% + 40px);
+    margin-top: -300px;
+    padding-bottom: 60px;
+}
+.secondbody{
+    display: flex;
+    justify-content: center;
+    transform: rotate(4deg);
+    padding-top: 70px;
+}
+.arrow{
+    padding-top: 25px;
+    padding-right: 25px;
+}
+.greedy{
+    width : 1350px;
+    font-size: 64px;
+    padding-right: 25px;
+}
+.preselbody{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.presel{
+    width : 1539px;
+}
+.presale{
+    font-size: 120px;
+    margin-top: -150px;
+}
+.smileman{
+    margin-top: -250px;
+}
+.arrow1{
+    padding-top: 25px;
+    padding-right: 25px;
+}
+.arrow1>img{
+    width : 100%;
+}
+.secure{
+    font-size: 64px;
+}
+.nftimg{
+    width: 316px;
+    height: 48px;
+    padding-top: 10px !important;
+    font-size: 18px !important;
+}
+
+.tman1{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+}
+.man1>img{
+    width: 100%;
+}
+.man2>img{
+    width: 100%;
+}
+.mantext1{
+    font-size: 36px;
+    padding-right: 24px;
+}
+.mantext2{
+    font-size: 22px;
+    padding-right: 24px;
+    padding-top: 32px;
+    color : #8779B1;
+}
+.tman2{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: end;
+}
+
+.stop{
+    font-size: 144px;
+    padding : 20px 2% 0 2%
+}
+.stoptext{
+    text-align-last: end;
+    padding-left: 30px;
+}
+.stopimg{
+    margin-top: -410px;
+    width: 876px;
+}
+.stopimg>img{
+    width: 100%;
+}
+
+.third{
+    background-color: #180A3F;
+    transform: rotate(-4deg);
+    margin-left: -35px;
+    margin-top: -120px;
+    width : calc(100% + 50px);
+    overflow: hidden;
+}
+.thirdbody{
+    transform: rotate(4deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boysave{
+    width : 1130px;
+}
+.boy{
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bold;
+}
+.shinyman{
+    margin-left: -120px;
+    z-index: -1
+}
+.shinyman>img{
+    width : 100%
+}
+.save{
+    font-size: 120px;
+    font-weight: bold;
+    text-align: end;
+   margin-top: -170px; 
+}
+.cryptoarrow{
+    margin-top: -30px;
+}
+
+.carouselbody{
+    transform: rotate(4deg);
+    margin-bottom: -100px;
+    width : calc(100% - 30px);
+    margin-left: 10px;
+}
+.carousel{
+    width: 448px;
+    height: 448px;
+}
+
+.earthbody{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+    position: relative;
+}
+.twitter{
+    position: absolute;
+    cursor: pointer;
+    left : 50%;
+    top : 20px;
+    z-index: 10;
+}
+.discord{
+    position: absolute;
+    cursor: pointer;
+    left : 58%;
+    top : 200px;
+    z-index: 10;
+}
+.join{
+    font-size: 144px;
+    margin-top: -350px;
+}
+
+.bottombody{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.bottommenu{
+    font-size: 14px;
+    color: #E7DEFF;
+    display: flex;
+    width: 563px;
+    align-items: center;
+    justify-content: space-between;
+}
