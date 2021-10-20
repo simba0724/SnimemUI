@@ -17,7 +17,7 @@
     "bootstrap": "^5.1.1",
     "express": "^4.17.1",
     "history": "^5.0.1",
-    "json-server": "^0.17.0",
+    "json-server": "^0.16.3",
     "path": "^0.12.7",
     "react": "^17.0.2",
     "react-countdown": "^2.3.2",
@@ -30,7 +30,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"json-server --watch src/db.json --port 3001\"",
+    "start": "react-scripts start",
     "db": "json-server --watch src/db.json -p 3001",
     "build": "react-scripts build",
     "test": "react-scripts test",
